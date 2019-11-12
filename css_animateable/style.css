@@ -1,0 +1,91 @@
+h1 {
+  text-align: center;
+  background-color: grey;
+}
+
+div {
+  height: 90px;
+  width: 250px;
+  font-size: 28px;
+  margin: 20px;
+  color: white;
+  border: none;
+  background-color: blue;
+  line-height: 90px;
+  text-align: center;
+  transition: all 2s;
+}
+
+.background:hover {
+  background-color: green;
+  color: purple;
+  width: 250px;
+}
+
+.colour:hover {
+  color: red;
+  background-color: purple;
+}
+
+.font-size:hover {
+  font-size: 32px;
+  background-color: green;
+}
+
+.height:hover {
+  height: 120px;
+    background-color: red;
+    color: purple;
+}
+
+.width:hover {
+  width: 340px;
+  color: orange;
+  background-color: purple;
+}
+
+.letter-spacing:hover {
+  letter-spacing: 5px;
+  color: green;
+  background-color: yellow;
+}
+
+.line-height:hover {
+  line-height: 120px;
+  width: 400px;
+  background-color: black;
+}
+
+.margin-bottom:hover {
+  margin-bottom: 50px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.margin-top:hover {
+  margin-top: 50px;
+  border-radius: 90%;
+  background-color: purple;
+  color: green;
+}
+
+.opacity:hover {
+  opacity: .3;
+}
+
+.padding:hover {
+  padding: 20px;
+}
+
+.border-colour, .border-width {
+  border: 6px solid green;
+}
+
+.border-colour:hover {
+  border-color: red;
+}
+
+.border-width:hover {
+  border-width: 12px;
+  border-color: black;
+}

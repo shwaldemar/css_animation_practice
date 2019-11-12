@@ -1,0 +1,83 @@
+#hover {
+  height: 90px;
+  width: 290px;
+  font-size: 28px;
+  color: white;
+  border: none;
+  background-color: blue;
+}
+
+/* this hover changes the button colour instantly on hover */
+#hover:hover {
+  background-color: green;
+  color: blue;
+}
+
+#transition {
+  height: 90px;
+  width: 290px;
+  font-size: 28px;
+  color: white;
+  border: none;
+  background-color: green;
+    /* setting the transition property, duration & delay allows us to phase in the colour change more gradually. N.B. you can stack transition properties after one another as below with background colour, colour and width naming them individually or using all to select all.*/
+    /* abreiviated in one line all transition of 3s delay 300ms */
+    transition: background-color 3s ease-in-out 1s, color 2s ease 4s, width 4s ease-in-out 1s, border-radius 4s ease-in-out 1s;
+  /* transition-property: all;
+  transition-duration: 3s;
+  transition-delay: 300ms; */
+}
+
+#transition:hover {
+  background-color: blue;
+  color: black;
+  width: 600px;
+  border-radius: 50%;
+}
+
+.move {
+  margin: 2em;
+  width: 150px;
+  height: 50px;
+  padding: 10px 15px;
+  background-color: purple;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 0.5em;
+  font-size: 20px;
+
+  /* this translate function allows us to select a transition movement speed */
+  transition-property: translate();
+  transition-duration: 3s;
+}
+
+#ease {
+  transition-timing-function: ease;
+  /* moves slow fast slow */
+}
+
+#linear {
+  transition-timing-function: linear;
+  /* moves same speed */
+}
+
+#easein {
+  transition-timing-function: ease-in;
+  /* moves slow at the beginning faster at the end */
+}
+
+#easeout {
+  transition-timing-function: ease-out;
+  /* moves slow fast slow */
+}
+
+#easeinout {
+  transition-timing-function: ease-in-out;
+  /* moves slow fast slow */
+}
+
+/* this move class enables us to move the divs while they are being hovered over. */
+.move:hover {
+  transform: translate(900px, 0)
+}

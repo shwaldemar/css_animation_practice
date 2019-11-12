@@ -1,0 +1,82 @@
+img {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  transition: transform 2s;
+  /* TRANSFORM ORIGIN */
+  transform-origin: top;
+}
+
+img:hover {
+
+  /* x is horizontal y is vertical for these transform options  */
+
+/* TRANSFORM TRANSLATE  moves the image or element*/
+  /* transform: translateX(500px);
+  moves image right
+  /* transform: translateX(-500px);
+  moves image left */
+  /* transform: translateY(500px); */
+  /* moves image down */
+  /* transform: translateY(-500px); */
+  /* moves image up */
+  /* transform: translate(500px, -200px); */
+  /* moves image up and right */
+  /* transform: translate(-500px, 200px); */
+  /* moves image down and left */
+  /* transform: translate(-500px, -200px); */
+  /* moves image up and left */
+
+/* TRANSFORM SCALE */
+  /* transform: scaleX(2); */
+  /* makes the item twice its normal size */
+
+  /* transform: scaleY(2); */
+  /* makes the item twice its normal height */
+
+  /* transform: scale(2,2); */
+  /* makes the item twice its origonal size */
+  /* transform: scale(-2,2);
+  rotates and makes it bigger */
+  /* transform: scale(2,-2)
+  inverts and turns it upside down */
+  /* transform: scale(-2,-2); */
+  /* makes very small then enlarges upside down */
+
+
+/* TRANSFORM ROTATE */
+  /* transform: rotate(-360deg); */
+  /* rotates 360 degrees left */
+  /* transform: rotate(360deg) */
+  /* rotates 360 degrees right */
+
+/* TRANSFORM SKEW */
+
+  /* transform: skewX(360deg); */
+  /* rotates /skews left 360% and back again*/
+  /* transform: skewX(-360deg) */
+  /* rotates / skews right 360% and back again */
+
+  /* transform: skewY(50deg) */
+  /* skews up to the left */
+  /* transform: skewY(-50deg) */
+  /* skews up to the right  */
+
+  /* transform: skew(20deg, 20deg) */
+  /* skews 20% horizontal and 20% vertical  */
+  /* picture leans in and stretches up to the left */
+
+  /* transform: skew(-20deg, -20deg) */
+  /* skews -20% horizontal and -20% vertical  */
+  /* picture leans back and stretches up to the right */
+}
+
+#img1:hover {
+  /* TRANSFORM ORIGIN */
+transform: rotate(45deg)
+}
+
+#img2:hover {
+  transform: translate(200px,-200px);
+}
