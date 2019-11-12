@@ -1,1 +1,1 @@
-``Demonstrate html & css elements that can be changed using``
+``Demonstrate html & css elements that can be changed using animation``
