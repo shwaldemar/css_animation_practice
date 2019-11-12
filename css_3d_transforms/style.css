@@ -1,0 +1,37 @@
+img {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  transition: transform 2s;
+}
+
+body {
+  /* need to put perspective in body to use transform translateZ */
+  perspective: 500px;
+}
+#img1:hover {
+/* TRANSLATE */
+  /* transform: translateZ(300px); */
+  /* zooms in / image moves towards us*/
+  /* transform: translateZ(-300px); */
+  /* zooms out using -no / image moves away from us*/
+
+/* ROTATE */
+  /* transform: rotateZ(120deg); */
+  /* rotates image right on center */
+  /* transform: rotateZ(-120deg) */
+  /* rotates the image left on center */
+
+  /* transform: rotateX(120deg); */
+  /* rotates the image back on center */
+  /* transform: rotateX(-120deg); */
+  /* rotates the image forward on center */
+
+  transform: rotateY(60deg);
+  /* rotates image right on center bringing the left side closer*/
+}
+#img2:hover {
+  transform: translateZ(500px);
+  /* zooms in / image moves towards us */
+}
