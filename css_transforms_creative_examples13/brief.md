@@ -1,1 +1,1 @@
-``on hover zoom in on image and rotate image left``
+``on hover text fill from left to right letter by letter``
