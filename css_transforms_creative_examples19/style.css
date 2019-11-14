@@ -15,7 +15,11 @@ div {
   0% {
     transform: translateX(0);
   }
-  100% {
+  10% {
     transform: translateX(1000px);
+  }
+
+  100% {
+    transform: translate(1000px, 500px);
   }
 }
