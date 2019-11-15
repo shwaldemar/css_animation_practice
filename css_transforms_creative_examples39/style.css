@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #272727;
+}
+
+.slider {
+	width: 800px;
+	height: 400px;
+	background: url(https://preview.redd.it/6d7divw2qrw31.png?width=640&crop=smart&auto=webp&s=82dc3a8eb817c9c9b1ba9d17b65b54173c14bffb);
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation: change-bg 10s alternate infinite;
+	overflow: hidden;
+}
+
+@keyframes change-bg {
+	0% {
+		background: url(https://preview.redd.it/6d7divw2qrw31.png?width=640&crop=smart&auto=webp&s=82dc3a8eb817c9c9b1ba9d17b65b54173c14bffb);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	15% {
+		background: url(https://preview.redd.it/6d7divw2qrw31.png?width=640&crop=smart&auto=webp&s=82dc3a8eb817c9c9b1ba9d17b65b54173c14bffb);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	25% {
+		background: url(https://i.redd.it/pur69im8kay31.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	40% {
+		background: url(https://i.redd.it/pur69im8kay31.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	55% {
+		background: url(https://i.redd.it/y25aqkooron31.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	70% {
+		background: url(https://preview.redd.it/yzahjb4p3yl31.png?width=960&crop=smart&auto=webp&s=c29c1fae45ddda5ae543ec5086715bc4041260b9);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	85% {
+		background: url(https://preview.redd.it/yzahjb4p3yl31.png?width=960&crop=smart&auto=webp&s=c29c1fae45ddda5ae543ec5086715bc4041260b9;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	100% {
+		background: url(https://preview.redd.it/rkt8k21m8qy31.jpg?width=640&crop=smart&auto=webp&s=d5a32a09a7cc05e651b1dd90c4a255b57e33576c);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
